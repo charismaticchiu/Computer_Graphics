@@ -1,0 +1,28 @@
+﻿已經開始建置於 2015/6/4 上午 02:36:18。
+     1>節點 2 (build 目標) 上的專案 "D:\computerGraphics\CG_HW4_framework\CG_HW4\CG_HW4\CG_HW4.vcxproj"。
+       專案檔包含 ToolsVersion="12.0"，但這一版 MSBuild 不予以支援。專案將被視為包含 ToolsVersion="4.0"。
+     1>InitializeBuildStatus:
+         由於指定了 "AlwaysCreate"，因此正在建立 "Debug\CG_HW4_framework.unsuccessfulbuild"。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\computerGraphics\CG_HW4_framework\CG_HW4\\..\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\computergraphics\cg_hw4_framework\cg_hw4\cg_hw4\main.cpp(196): warning C4244: '引數' : 將 'double' 轉換為 'GLsizei'，由於型別不同，可能導致資料遺失
+     1>d:\computergraphics\cg_hw4_framework\cg_hw4\cg_hw4\main.cpp(196): warning C4244: '引數' : 將 'double' 轉換為 'GLsizei'，由於型別不同，可能導致資料遺失
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\computerGraphics\CG_HW4_framework\CG_HW4\Debug\CG_HW4_framework.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\computerGraphics\CG_HW4_framework\CG_HW4\\..\lib\ glew32.lib freeglut.lib /MANIFEST /ManifestFile:"Debug\CG_HW4_framework.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\computerGraphics\CG_HW4_framework\CG_HW4\Debug\CG_HW4_framework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\computerGraphics\CG_HW4_framework\CG_HW4\Debug\CG_HW4_framework.lib" /MACHINE:X86 Debug\glm.obj
+         Debug\main.obj
+         Debug\MAT.obj
+         Debug\Matrices.obj
+         Debug\textfile.obj
+         Debug\VEC.obj
+         CG_HW4.vcxproj -> D:\computerGraphics\CG_HW4_framework\CG_HW4\Debug\CG_HW4_framework.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\computerGraphics\CG_HW4_framework\CG_HW4\Debug\CG_HW4_framework.exe.manifest" /manifest Debug\CG_HW4_framework.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在刪除檔案 "Debug\CG_HW4_framework.unsuccessfulbuild"。
+         正在變更時間戳記 "Debug\CG_HW4_framework.lastbuildstate"。
+     1>專案 "D:\computerGraphics\CG_HW4_framework\CG_HW4\CG_HW4\CG_HW4.vcxproj" (build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:01.34
